@@ -1,6 +1,6 @@
 import 'dart:io';
 
-enum operation { add, sub, div, mul }
+/*enum operation { add, sub, div, mul }
 
 void main() {
   int a, b;
@@ -24,4 +24,9 @@ void main() {
       print("$a * $b = ${a * b}");
       break;
   }
+}
+ 
+void main() {
+  int a, b;
+ 
 }
