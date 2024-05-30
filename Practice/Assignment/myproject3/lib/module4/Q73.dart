@@ -13,7 +13,6 @@ class Q73 extends StatefulWidget {
 class _Q73State extends State<Q73> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     splashscreen();
   }
@@ -43,7 +42,7 @@ class _Q73State extends State<Q73> {
             width: 400,
             color: Colors.teal,
             child: Center(
-              child: Text("Splash screen Que 73"),
+              child: Text("Splash screen Q73"),
             ),
           )
         ],

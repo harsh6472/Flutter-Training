@@ -41,7 +41,7 @@ class _MyQ69State extends State<MyQ69> {
                       TabBar(
                         tabs: [
                           Tab(
-                            child: Text("Gmail"),
+                            child: Text("gmail"),
                           ),
                         ],
                       );

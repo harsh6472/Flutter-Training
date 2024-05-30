@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:module_4/Que76/Que76.2.dart';
-
+import 'package:myproject3/module4/Q76.2.dart';
 class Que76 extends StatefulWidget {
   const Que76({super.key});
 

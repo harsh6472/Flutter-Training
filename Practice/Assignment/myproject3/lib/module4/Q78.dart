@@ -12,6 +12,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:myproject3/module4/Q73.dart';
 
 class MyQ78 extends StatefulWidget {
   const MyQ78({super.key});
@@ -21,7 +22,7 @@ class MyQ78 extends StatefulWidget {
 }
 
 class _MyQ78State extends State<MyQ78> {
-  TextEditingController _78textcontroller = TextEditingController();
+  TextEditingController _Q78textcontroller = TextEditingController();
   List q78list = [];
   bool? editq78 = false;
   dynamic currentindex;
@@ -29,13 +30,13 @@ class _MyQ78State extends State<MyQ78> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        titleScaffoldroundColor: Colors.deepPurple,
+        title :Text("Q78"),backgroundColor: Colors.deepPurple,
       ),
-      body: Scaffolddren: [
+      body:Column(children : [
           Padding(
             padding: const EdgeInsets.all(12.0),
             child: TextField(
-              controller: _78textcontroller,
+              controller: _Q78textcontroller,
               decoration: InputDecoration(
                   hintText: "enter",
                   labelText: "text",
@@ -47,17 +48,17 @@ class _MyQ78State extends State<MyQ78> {
               ? ElevatedButton(
                   onPressed: () {
                     setState(() {
-                      q78list[currentindex] = _78textcontroller.text.toString();
+                      q78list[currentindex] = _Q78textcontroller.text.toString();
                       editq78 = true;
-                      _78textcontroller.clear();
+                      _Q78textcontroller.clear();
                     });
                   },
                   child: Text("Edit"))
               : ElevatedButton(
                   onPressed: () {
                     setState(() {
-                      q78list.add(_78textcontroller.text.toString());
-                      _78textcontroller.text = "";
+                      q78list.add(_Q78textcontroller.text.toString());
+                      _Q78textcontroller.text = "";
                       print("$q78list");
                     });
                   },
@@ -112,7 +113,7 @@ class _MyQ78State extends State<MyQ78> {
                                   onPressed: () {
                                     setState(() {
                                       currentindex = index;
-                                      _78textcontroller.text =
+                                      _Q78textcontroller.text =
                                           q78list[index].toString();
                                       editq78 = true;
                                     });
@@ -140,7 +141,7 @@ class _MyQ78State extends State<MyQ78> {
             ),
           )
         ],
-      ),
+    )
     );
   }
 }
