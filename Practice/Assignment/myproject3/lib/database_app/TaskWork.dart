@@ -1,5 +1,6 @@
-import 'package:database_app/Screens/Repository.dart';
-import 'package:database_app/Screens/Task.dart';
+
+import 'package:myproject3/database_app/Repository.dart';
+import 'package:myproject3/database_app/Task.dart';
 
 class Taskservice {
   late Repository _repository;

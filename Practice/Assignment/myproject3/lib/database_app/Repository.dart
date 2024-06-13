@@ -1,8 +1,8 @@
-import 'package:myproject3/module5/Connection.dart';
+import 'package:myproject3/database_app/Connection.dart';
 import 'package:sqflite/sqflite.dart';
+import 'dart:async';
 
 class Repository {
-  late Repository _repository;
   late DatabaseConnection _databaseConnection;
   Repository() {
     _databaseConnection = DatabaseConnection();

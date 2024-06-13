@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:myproject3/module5/EditTask.dart';
-import 'package:myproject3/module5/NewTask.dart';
-import 'package:myproject3/module5/Task.dart';
-import 'package:myproject3/module5/TaskWork.dart';
+import 'package:myproject3/database_app/EditTask.dart';
+import 'package:myproject3/database_app/NewTask.dart';
+import 'package:myproject3/database_app/Task.dart';
+import 'package:myproject3/database_app/TaskWork.dart';
 
 class DashBoardScreen extends StatefulWidget {
   const DashBoardScreen({super.key});
